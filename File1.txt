@@ -3,3 +3,9 @@ This is file1
 added additional changes
 
 new additional changes
+
+slash changes
+
+amand changes
+
+version 2.0 changes
