@@ -1,3 +1,76 @@
+Create git repository
+========================
+	command : git init
+ 	-->Create git in your local directory
+
+add file to git and commit
+=============================
+ 
+	Command : git add *.txt
+	-->it will added to stage to commit
+commit
+======
+	command : git commit -m "changes added to master branch"
+	
+	-->here -m "changes added to master branch" means details of changes
+
+modify file and commit
+======================
+	follow this "add file to git and commit and commit" 
+
+to verify who are all made changes
+===============================
+  	command : git log
+	-->it will give full details of commit changes
+	command : git shortlog
+	-->it will give shot log details
+
+Resume your work (Stash)
+=========================
+	command : git stash
+		Saved working directory and index state WIP on master: 11395b5 initial 		commit to master branch and
+		it will clear your changes
+
+continue your work (Stash apply)
+======================
+	command : git stash apply
+	`	 it will revert your change back
+
+Reset the file back to latest change set for particular file
+===========================================================
+	command : git checkout "File1.txt"
+	 -->check out the file
+	
+Add forgotten change (amand)
+===========================
+ 	Command :git commit --amend
+
+Git Tag: 
+=============
+	Command: git tag -a v1.0 -m "Stabled version 1.0"
+Get Tag details
+=================
+	Command : git show v1.0
+	here v1.0 is the tag name
+
+Create Branch
+===============
+	command : git branch v2.0
+
+swithing to branch
+==================
+	command : git checkout v2.0
+
+Merge v2.0 to master branch
+==========================
+	first need to swith to master branch with we can merge to child branch to master brach
+	command : git merge v2.0
+
+
+we can switch between brachs using checkout command
+
+
+
 Verion 2.0 branch changes
 
 additional commit in V2.0
